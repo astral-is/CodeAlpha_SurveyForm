@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">General Health Survey</h1>
+    <div class="container">
+        <form>
+            <div class="input-element">
+                <label id="select-label">
+                    Name
+                </label><br>
+                <input type="text" id="name" required />
+            </div>
+            <br><br>
+
+            <div class="input-element">
+                <label id="select-label">
+                    Age
+                </label><br>
+                <input type="number" id="age" min="1" required />
+            </div>
+            <br><br>
+
+            <div class="input-element">
+                <label id="select-label">
+                    Email
+                </label><br>
+                <input type="email" id="email" required />
+            </div>
+            <br><br>
+
+            <div class="input-element">
+                <label id="select-label">
+                    1 - How healthy do you feel on a scale of 1 to 10?
+                </label><br>
+                <input type="number" id="health" min="1" max="10" required />
+            </div>
+            <br><br>
+
+            <div class="input-element">
+                <label>
+                    2 - How often do you go to the hospital?
+                </label><br>
+                <select id="dropdown">
+                    <option>Once a week</option>
+                    <option>Once a month</option>
+                    <option>Once every three months</option>
+                    <option>Once a year</option>
+                </select>
+            </div>
+            <br><br>
+
+            <div class="input-element">
+                <label>3 - Do you have any chronic diseases?</label><br>
+                <div>
+                    <label><input type="radio" name="chronic">Yes</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="chronic">No</label>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="input-element">
+                <label>4 - Does anyone in your family members have a hereditary disease?</label><br>
+                <div>
+                    <label><input type="radio" name="hereditary">Yes</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="hereditary">No</label>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="input-element">
+                <label>5 - Do you have any genetic diseases?</label><br>
+                <div>
+                    <label><input type="checkbox" name="gen" value="dia">Diabetes</label>
+                </div>
+                <div>
+                    <label><input type="checkbox" name="gen" value="bp">High blood pressure</label>
+                </div>
+                <div>
+                    <label><input type="checkbox" name="gen" value="ton">Huntington</label>
+                </div>
+                <div>
+                    <label><input type="checkbox" name="gen" value="blood">Thalassemia</label>
+                </div>
+                <div>
+                    <label><input type="checkbox" name="gen" value="philia">Hemophilia</label>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="input-element">
+                <label>6 - How often do you exercise?</label><br>
+                <div>
+                    <label><input type="radio" name="exercise">Every day</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="exercise">Once in two days</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="exercise">Once a week</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="exercise">Never</label>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="input-element">
+                <label>7 - Have you had an allergic reaction or received treatment for it?</label><br>
+                <div>
+                    <label><input type="radio" name="allergic">Yes, I did. I also received treatment.</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="allergic">I had it but did not receive treatment</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="allergic">I've never had one.</label>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="input-element">
+                <label>8 - Have you experienced depression or psychological distress in the last four weeks?</label><br>
+                <div>
+                    <label><input type="radio" name="depression">Yes very much</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="depression">Sometimes</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="depression">Never</label>
+                </div>
+            </div>
+            <br>
+            <br>
+
+
+            <div class="input-element">
+                <label>9 - Do you use any medication regularly?</label><br>
+                <div>
+                    <label><input type="radio" name="medication">Yes</label>
+                </div>
+                <div>
+                    <label><input type="radio" name="medication">No</label>
+                </div>
+            </div>
+            <br>
+            <br>
+
+
+            <div class="input-element">
+                <label>10 - What various medications have you used over the last 24 hours?</label>
+                <br>
+                <textarea name="medications" cols="55" rows="10" placeholder="Write here"></textarea>
+            <br>
+            <br>
+            </div><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

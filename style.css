@@ -1,0 +1,58 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: rgb(24, 32, 101); */
+    background: url('czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDE1LWJnLTExLWtxYWl2MWJtLmpwZw.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-size:45px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px  #ccc;
+    border-radius: 5px;
+    background-color: rgba(161, 161, 161, 0.4);
+}
+
+.input-element {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"],input[type="email"],input[type="text"],
+select,
+textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
